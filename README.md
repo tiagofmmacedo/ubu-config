@@ -44,9 +44,9 @@ sudo snap install node-red
 
 ### Other Tools
 
-- [x] Chrome
-- [x] Balenaetcher
-- [x] Eagle
+- [x] [Chrome](https://www.google.com/intl/pt-PT/chrome/)
+- [x] [Balenaetcher](https://www.balena.io/etcher/)
+- [x] [Eagle](https://www.autodesk.com/products/eagle/free-download)
 - [ ] VirtualBox
 - [ ] Autenticação GOV
 - [ ] Boot Repair
@@ -54,15 +54,16 @@ sudo snap install node-red
 - [ ] TeamViewer
 - [ ] VNC 
 - [ ] Wireshark
-- [x] 4K video downloader
-- [x] Freecad
-- [x] Rambox
+- [x] [4K video downloader](https://www.4kdownload.com/products/videodownloader/15)
+- [x] [Rambox](https://rambox.app/download)
 - [ ] Cura
-- [x] Kicad
+- [x] [Kicad](https://www.kicad.org/download/ubuntu/)
+- [x] [Draw.io](https://github.com/jgraph/drawio-desktop/releases/tag/v19.0.3)
 - [ ] Sketchup for Web
 - [ ] Sweet Home 3D
 - [ ] Angry IP Scanner
 - [ ] LFTP
+- [x] [FortiClient VPN](https://www.fortinet.com/support/product-downloads)
 
 
 ## Applications Shortcuts
@@ -95,20 +96,20 @@ chmod +x name.desktop
 
 ## Gnome Extensions
 
-- [x] Caffeine 
-- [x] Clipboard Indicator
-- [x] OpenWeather
-- [x] Refresh Wifi Connections 
-- [x] Disconnect Wifi 
-- [x] Docker integration
-- [x] Removable Drive Menu
-- [x] Sound input & output device chooser
-- [x] Status Area Horizontal Spacing 
-- [x] NoAnnoyance v2
-- [x] Screenshot Tool
-- [x] Tweaks & Extensions in System Menu
-- [x] Places status indicator
-- [x] Bring Out Submenu Of Power Off/Logout Button 
+- [x] [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+- [x] [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+- [x] [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
+- [x] [Refresh Wifi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/)
+- [x] [Disconnect Wifi](https://extensions.gnome.org/extension/904/disconnect-wifi/)
+- [x] [Docker](https://extensions.gnome.org/extension/5103/docker/)
+- [x] [Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/)
+- [x] [Sound input & output device chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+- [x] [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/)
+- [x] [NoAnnoyance v2](https://extensions.gnome.org/extension/2182/noannoyance/)
+- [x] [Screenshot Tool](https://extensions.gnome.org/extension/1112/screenshot-tool/)
+- [x] [Tweaks & Extensions in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
+- [x] [Places status indicator](https://extensions.gnome.org/extension/8/places-status-indicator/)
+- [x] [Bring Out Submenu Of Power Off/Logout Button](https://extensions.gnome.org/extension/2917/bring-out-submenu-of-power-offlogout-button/)
 
 
 ## VS Code
@@ -152,7 +153,7 @@ wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.
 
 * Add user to root group
 ```bash
-xhost +si:localuser:root -> x
+xhost +si:localuser:root
 ```
 * Enable permissions on usb ports
 ```bash
@@ -165,7 +166,7 @@ sudo adduser $(whoami) dialout
 
 Open File:
 ```bash
-sudo code ~/.bashrc
+code ~/.bashrc
 ```
 
 Add in the end of the file the follow contents:
@@ -225,7 +226,55 @@ Reload File:
 source ~/.bashrc
 ```
 
+## GIT
 
+* Generate ssh keys:
+```bash
+ssh-keygen -t rsa -b 4096
+```
+```bash
+ssh-keygen -t ed25519 -C "tiago.macedo@ceiia.com"
+```
+
+* Configure git:
+```bash
+git config --global user.name "Tiago Macedo" &&\
+git config --global user.email tiago.macedo@ceiia.com
+```
+
+* Edit `.gitconfig` file:
+```bash
+code ~/.gitconfig
+```
+
+* Paste the follow contest:
+```bash
+[user]
+	name = Tiago Macedo
+	email = tiago.macedo@ceiia.com
+# --------------- D I F F ---------------
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[difftool "meld"]
+	cmd = meld "$LOCAL" "$REMOTE"
+ 
+# --------------- M E R G E ---------------
+[merge]
+	tool = meld
+[mergetool "meld"]
+	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+ 
+# --------------- A L I A S ---------------
+[alias]
+	co = checkout 
+	cm = commit -m 
+	st = status
+	cl = clean -df
+	pl = pull
+	ps = push
+```
 
 ## Disk Partition Size
 
