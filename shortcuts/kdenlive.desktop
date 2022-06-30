@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/tiagofmmacedo/tools/kdenlive-20.08.2/kdenlive-20.08.2-x86_64.appimage
+Name=Kdenlive
+Comment=
+Icon=/home/tiagofmmacedo/tools/kdenlive-20.08.2/kdenlive.png

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/tiagofmmacedo/tools/wled/WLED-0.7.1-Linux.AppImage
+Name=WLED
+Comment=
+Icon=/home/tiagofmmacedo/tools/wled/wled.png

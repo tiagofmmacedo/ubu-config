@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/tiagofmmacedo/tools/balenaetcher-1.5.108/balenaEtcher-1.5.109-x64.AppImage
+Name=Balena
+Comment=
+Icon=/home/tiagofmmacedo/tools/balenaetcher-1.5.108/balena.png

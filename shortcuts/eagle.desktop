@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/tiagofmmacedo/tools/eagle-9.6.2/eagle
+Name=Eagle
+Comment=
+Icon=/home/tiagofmmacedo/tools/eagle-9.6.2/bin/eagle-logo.png

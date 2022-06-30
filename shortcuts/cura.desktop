@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/tiagofmmacedo/tools/ultimakercura-4.7.1/Ultimaker_Cura-4.7.1.AppImage
+Name=Cura
+Comment=
+Icon=/home/tiagofmmacedo/tools/ultimakercura-4.7.1/ultimaker_cura.png
