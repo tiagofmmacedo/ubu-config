@@ -9,7 +9,7 @@ This repository was created to contain the necessary setup after new installatio
 * General Tools:
 
 ```bash
-sudo apt install -y terminator gparted dconf-editor subversion git ssh meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla grub-customizer
+sudo apt install -y terminator gparted dconf-editor subversion git ssh meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla tree fuse libfuse2 freecad librecad grub-customizer
 ```
 
 * Gnome Tools:
@@ -45,8 +45,8 @@ sudo snap install node-red
 ### Other Tools
 
 - [x] Chrome
-- [ ] Balenaetcher
-- [ ] Eagle
+- [x] Balenaetcher
+- [x] Eagle
 - [ ] VirtualBox
 - [ ] Autenticação GOV
 - [ ] Boot Repair
@@ -54,12 +54,11 @@ sudo snap install node-red
 - [ ] TeamViewer
 - [ ] VNC 
 - [ ] Wireshark
-- [ ] 4K video downloader
-- [ ] 4K youtube to mp3
-- [ ] Freecad
-- [ ] Rambox
+- [x] 4K video downloader
+- [x] Freecad
+- [x] Rambox
 - [ ] Cura
-- [ ] Kicad
+- [x] Kicad
 - [ ] Sketchup for Web
 - [ ] Sweet Home 3D
 - [ ] Angry IP Scanner
@@ -96,23 +95,34 @@ chmod +x name.desktop
 
 ## Gnome Extensions
 
-- [ ] Caffeine 
-- [ ] Clipboard Indicator
-- [ ] OpenWeather
-- [ ] Refresh Wifi Connections 
-- [ ] Disconnect Wifi 
-- [ ] Docker integration
-- [ ] Removable Drive Menu
-- [ ] Sound input & output device chooser
-- [ ] Status Area Horizontal Spacing 
-- [ ] NoAnnoyance v2
-- [ ] Screenshot Tool
-- [ ] Tweaks & Extensions in System Menu
-- [ ] Places status indicator
-- [ ] Bring Out Submenu Of Power Off/Logout Button 
+- [x] Caffeine 
+- [x] Clipboard Indicator
+- [x] OpenWeather
+- [x] Refresh Wifi Connections 
+- [x] Disconnect Wifi 
+- [x] Docker integration
+- [x] Removable Drive Menu
+- [x] Sound input & output device chooser
+- [x] Status Area Horizontal Spacing 
+- [x] NoAnnoyance v2
+- [x] Screenshot Tool
+- [x] Tweaks & Extensions in System Menu
+- [x] Places status indicator
+- [x] Bring Out Submenu Of Power Off/Logout Button 
 
 
-## VS Code Extensions
+## VS Code
+
+### Open in Code menu
+
+Run in terminal:
+
+```bash
+wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
+```
+
+
+### VS Code Extensions
 
 - [ ] ms-vscode.cpptools
 - [ ] shd101wyy.markdown-preview-enhanced
