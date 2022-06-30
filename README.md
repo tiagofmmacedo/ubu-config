@@ -1,8 +1,10 @@
-## Ubuntu Personal Configuration
+# Ubuntu Personal Configuration
 
 This repository was created to contain the necessary setup after new installation of Ubuntu OS.
 
-### Install Tools from Terminal
+## Tools
+
+### Installed Tools
 
 * General Tools:
 
@@ -16,17 +18,6 @@ sudo apt install -y terminator gparted dconf-editor subversion git ssh meld pico
 sudo apt install -y gnome-session gdm3 chrome-gnome-shell gnome-tweaks gnome-system-monitor gnome-shell-extensions
 ```
 
-### User Permissions
-
-* Add user to root group
-```bash
-xhost +si:localuser:root -> x
-```
-* Enable permissions on usb ports
-```bash
-sudo usermod -a -G dialout $(whoami)
-sudo adduser $(whoami) dialout
-```
 
 ### Snap Tools
 
@@ -53,7 +44,7 @@ sudo snap install node-red
 
 ### Other Tools
 
-- [ ] Chrome
+- [x] Chrome
 - [ ] Balenaetcher
 - [ ] Eagle
 - [ ] VirtualBox
@@ -75,7 +66,7 @@ sudo snap install node-red
 - [ ] LFTP
 
 
-### Applications Shortcuts
+## Applications Shortcuts
 
 This procedure enable the shortcut to **AppImager** applications.
 See `shortcuts` folder on this repository.
@@ -102,7 +93,26 @@ Icon=[PATH_TO_ICON]
 chmod +x name.desktop
 ```
 
-### VS Code Extensions
+
+## Gnome Extensions
+
+- [ ] Caffeine 
+- [ ] Clipboard Indicator
+- [ ] OpenWeather
+- [ ] Refresh Wifi Connections 
+- [ ] Disconnect Wifi 
+- [ ] Docker integration
+- [ ] Removable Drive Menu
+- [ ] Sound input & output device chooser
+- [ ] Status Area Horizontal Spacing 
+- [ ] NoAnnoyance v2
+- [ ] Screenshot Tool
+- [ ] Tweaks & Extensions in System Menu
+- [ ] Places status indicator
+- [ ] Bring Out Submenu Of Power Off/Logout Button 
+
+
+## VS Code Extensions
 
 - [ ] ms-vscode.cpptools
 - [ ] shd101wyy.markdown-preview-enhanced
@@ -126,30 +136,20 @@ chmod +x name.desktop
 - [ ] ms-vsliveshare.vsliveshare
 - [ ] yzane.markdown-pdf
 
+## Configuration
 
-### Gnome Extensions
+### User Permissions
 
-- [ ] Caffeine 
-- [ ] Center Area Horizontal Spacing 
-- [ ] Clipboard Indicator
-- [ ] CPU Power Manager
-- [ ] Dash to Dock
-- [ ] Desktop icons
-- [ ] OpenWeather
-- [ ] Refresh Wifi Connections 
-- [ ] Disconnect Wifi 
-- [ ] Docker integration
-- [ ] Removable Drive Menu
-- [ ] Sound input & output device chooser
-- [ ] Sound Settings
-- [ ] Status Area Horizontal Spacing 
-- [ ] NoAnnoyance
-- [ ] Remove Dropdown Arrows
-- [ ] Screenshot Tool
-- [ ] Tweaks in System Menu
-- [ ] Touchpad indicator
-- [ ] Places status indicator
-- [ ] Bring Out Submenu Of Power Off/Logout Button 
+* Add user to root group
+```bash
+xhost +si:localuser:root -> x
+```
+* Enable permissions on usb ports
+```bash
+sudo usermod -a -G dialout $(whoami)
+sudo adduser $(whoami) dialout
+```
+
 
 ### Bash RC File 
 
@@ -216,7 +216,8 @@ source ~/.bashrc
 ```
 
 
-### Disk Partition Size
+
+## Disk Partition Size
 
 ```
 /dev/sda1   ntfs            Recuperação     530MB
