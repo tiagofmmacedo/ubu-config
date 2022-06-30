@@ -28,33 +28,6 @@ sudo usermod -a -G dialout $(whoami)
 sudo adduser $(whoami) dialout
 ```
 
-### Applications Shortcuts
-
-This procedure enable the shortcut to **AppImager** applications.
-See `shortcuts` folder on this repository.
-
-* Create a file with `.desktop` extension (`name.desktop`) in `/home/$(whoami)/.local/share/applications` path.
-
-File contents:
-
-```bash
-#!/usr/bin/env xdg-open
-
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Exec=[PATH_TO_EXECUTE]
-Name=[NAME]
-Comment=
-Icon=[PATH_TO_ICON]
-```
-* Add permissions to file:
-
-```bash
-chmod +x name.desktop
-```
-
 ### Snap Tools
 
 Run in terminal:
@@ -102,6 +75,32 @@ sudo snap install node-red
 - [ ] LFTP
 
 
+### Applications Shortcuts
+
+This procedure enable the shortcut to **AppImager** applications.
+See `shortcuts` folder on this repository.
+
+* Create a file with `.desktop` extension (`name.desktop`) in `/home/$(whoami)/.local/share/applications` path.
+
+File contents:
+
+```bash
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=[PATH_TO_EXECUTE]
+Name=[NAME]
+Comment=
+Icon=[PATH_TO_ICON]
+```
+* Add permissions to file:
+
+```bash
+chmod +x name.desktop
+```
 
 ### VS Code Extensions
 
