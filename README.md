@@ -9,7 +9,7 @@ This repository was created to contain the necessary setup after new installatio
 * General Tools:
 
 ```bash
-sudo apt install -y terminator gparted dconf-editor subversion git ssh meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla tree fuse libfuse2 freecad librecad
+sudo apt install -y terminator gparted dconf-editor subversion git ssh meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla tree fuse libfuse2 freecad librecad python3 python3-venv python3-pip
 ```
 
 * Gnome Tools:
