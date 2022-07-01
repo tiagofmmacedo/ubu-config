@@ -157,7 +157,7 @@ xhost +si:localuser:root
 ```
 * Enable permissions on usb ports
 ```bash
-sudo usermod -a -G dialout $(whoami)
+sudo usermod -a -G dialout $(whoami) &&\
 sudo adduser $(whoami) dialout
 ```
 
