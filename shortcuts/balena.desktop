@@ -4,7 +4,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/home/tiagofmmacedo/tools/balenaetcher-1.5.108/balenaEtcher-1.5.109-x64.AppImage
+Exec=/home/tiagofmmacedo/tools/balena-etcher-electron-1.7.9-linux-x64/balenaEtcher-1.7.9-x64.AppImage
 Name=Balena
 Comment=
-Icon=/home/tiagofmmacedo/tools/balenaetcher-1.5.108/balena.png
+Icon=/home/tiagofmmacedo/tools/balena-etcher-electron-1.7.9-linux-x64/balena.png

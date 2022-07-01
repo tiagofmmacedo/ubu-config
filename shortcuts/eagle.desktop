@@ -4,7 +4,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/home/tiagofmmacedo/tools/eagle-9.6.2/eagle
+Exec=/home/tiagofmmacedo/tools/Autodesk_EAGLE_9.6.2_English_Linux_64bit/eagle-9.6.2/eagle
 Name=Eagle
 Comment=
-Icon=/home/tiagofmmacedo/tools/eagle-9.6.2/bin/eagle-logo.png
+Icon=/home/tiagofmmacedo/tools/Autodesk_EAGLE_9.6.2_English_Linux_64bit/eagle-9.6.2/bin/eagle-logo.png
