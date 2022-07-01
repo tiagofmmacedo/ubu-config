@@ -9,7 +9,7 @@ This repository was created to contain the necessary setup after new installatio
 * General Tools:
 
 ```bash
-sudo apt install -y terminator gparted dconf-editor subversion git ssh meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla tree fuse libfuse2 freecad librecad grub-customizer
+sudo apt install -y terminator gparted dconf-editor subversion git ssh meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla tree fuse libfuse2 freecad librecad
 ```
 
 * Gnome Tools:
@@ -64,7 +64,7 @@ sudo snap install node-red
 - [ ] Angry IP Scanner
 - [ ] LFTP
 - [x] [FortiClient VPN](https://www.fortinet.com/support/product-downloads)
-
+- [x] [Grub Customizer](https://ubuntuhandbook.org/index.php/2022/04/install-grub-customizer-ubuntu-2204/)
 
 ## Applications Shortcuts
 
