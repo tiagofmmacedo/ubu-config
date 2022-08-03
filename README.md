@@ -226,6 +226,15 @@ Reload File:
 source ~/.bashrc
 ```
 
+### STM32 
+
+If Error: `libusb_open() failed with LIBUSB_ERROR_ACCESS`
+Run:
+```bash
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/scripts/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules && sudo service udev restart
+```
+Unplug and reconnect the board
+
 ## GIT
 
 * Generate ssh keys:
