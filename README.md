@@ -225,7 +225,7 @@ source ~/.bashrc
 If Error: `libusb_open() failed with LIBUSB_ERROR_ACCESS`
 Run:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/scripts/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules && sudo service udev restart
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules && sudo service udev restart
 ```
 Unplug and reconnect the board
 
