@@ -9,7 +9,7 @@ This repository was created to contain the necessary setup after new installatio
 * General & Gnome Tools:
 
 ```bash
-sudo apt install -y terminator gparted dconf-editor subversion git ssh sshpass meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla tree fuse libfuse2 freecad librecad pulseaudio pavucontrol python3 python3-venv python3-pip &&\
+sudo apt install -y terminator gparted dconf-editor subversion git ssh sshpass meld picocom net-tools pinta hardinfo cutecom putty vim gimp mosquitto mosquitto-clients ubuntu-restricted-extras rar unrar p7zip-full p7zip-rar neofetch curl openssh-server mlocate filezilla tree fuse libfuse2 freecad librecad pulseaudio pavucontrol python3 python3-venv python3-pip python3-full build-essential libssl-dev libffi-dev python3-dev &&\
 sudo apt install -y gnome-control-center gnome-session gdm3 chrome-gnome-shell gnome-tweaks gnome-system-monitor gnome-shell-extensions xdg-desktop-portal-gnome gnome-screenshot
 ```
 
