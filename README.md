@@ -212,7 +212,7 @@ function parse_git_dirty {
 	fi
 }
 
-export PS1="\[\e[37m\]tiagofmmacedo\[\e[m\]\[\e[37m\]:\[\e[m\]\[\e[0;34m\]\W\[\e[m\]\[\e[0;34m\]\\$\[\e[m\]\[\e[34m\]\`parse_git_branch\`\[\e[m\] " 
+export PS1="\[\e[37m\]mcd\[\e[m\]\[\e[37m\]:\[\e[m\]\[\e[0;34m\]\W\[\e[m\]\[\e[0;34m\]\\$\[\e[m\]\[\e[34m\]\`parse_git_branch\`\[\e[m\] " 
 ```
 
 Reload File:
@@ -236,13 +236,13 @@ Unplug and reconnect the board
 ssh-keygen -t rsa -b 4096
 ```
 ```bash
-ssh-keygen -t ed25519 -C "tiago.macedo@ceiia.com"
+ssh-keygen -t ed25519 -C "tiago.macedo@connected.space"
 ```
 
 * Configure git:
 ```bash
 git config --global user.name "Tiago Macedo" &&\
-git config --global user.email tiago.macedo@ceiia.com
+git config --global user.email tiagofmmacedo@gmail.com
 ```
 
 * Edit `.gitconfig` file:
@@ -254,7 +254,7 @@ code ~/.gitconfig
 ```bash
 [user]
 	name = Tiago Macedo
-	email = tiago.macedo@ceiia.com
+	email = tiagofmmacedo@gmail.com
 # --------------- D I F F ---------------
 [diff]
 	tool = meld
