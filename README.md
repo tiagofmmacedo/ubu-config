@@ -246,30 +246,16 @@ git config --global user.email tiagofmmacedo@gmail.com
 ```
 
 * Edit `.gitconfig` file:
+
 ```bash
 code ~/.gitconfig
 ```
-
+* (For UBUNTU)
 * Paste the follow contest:
 ```bash
 [user]
 	name = Tiago Macedo
 	email = tiagofmmacedo@gmail.com
-# --------------- D I F F ---------------
-[diff]
-	tool = meld
-[difftool]
-	prompt = false
-[difftool "meld"]
-	cmd = meld "$LOCAL" "$REMOTE"
- 
-# --------------- M E R G E ---------------
-[merge]
-	tool = meld
-[mergetool "meld"]
-	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
- 
-# --------------- A L I A S ---------------
 [alias]
 	co = checkout 
 	cm = commit -m 
@@ -277,6 +263,40 @@ code ~/.gitconfig
 	cl = clean -df
 	pl = pull
 	ps = push
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[difftool "meld"]
+	cmd = meld "$LOCAL" "$REMOTE"
+[merge]
+	tool = meld
+[mergetool "meld"]
+	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+```
+* (For WINDOWS)
+* Paste the follow contest:
+```bash
+[core]
+	editor = \"C:\\Users\\tiago\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	name = Tiago Macedo
+	email = tiagofmmacedo@gmail.com
+[alias]
+    co = checkout 
+    cm = commit -m 
+    st = status
+    cl = clean -df
+    pl = pull
+    ps = push
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
 ```
 
 ## Disk Partition Size
