@@ -54,10 +54,8 @@ sudo snap install node-red
 - [x] [Chrome](https://www.google.com/intl/pt-PT/chrome/)
 - [x] [Balenaetcher](https://www.balena.io/etcher/)
 - [x] [Eagle](https://www.autodesk.com/products/eagle/free-download)
-- [ ] VirtualBox
 - [ ] Autenticação GOV
-- [ ] Boot Repair
-- [ ] Anydesk
+- [x] [Anydesk}(https://anydesk.com/pt/downloads/linux)
 - [ ] TeamViewer
 - [ ] VNC 
 - [ ] Wireshark
@@ -65,11 +63,8 @@ sudo snap install node-red
 - [x] [Rambox](https://rambox.app/download)
 - [ ] Cura
 - [x] [Kicad](https://www.kicad.org/download/ubuntu/)
+- [ ] [FreeCad](https://www.freecad.org/downloads.php)
 - [x] [Draw.io](https://github.com/jgraph/drawio-desktop/releases/tag/v19.0.3)
-- [ ] Sketchup for Web
-- [ ] Sweet Home 3D
-- [ ] Angry IP Scanner
-- [ ] LFTP
 - [x] [FortiClient VPN](https://www.fortinet.com/support/product-downloads)
 - [x] [Grub Customizer](https://ubuntuhandbook.org/index.php/2022/04/install-grub-customizer-ubuntu-2204/)
 
