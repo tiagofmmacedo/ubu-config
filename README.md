@@ -55,7 +55,7 @@ sudo snap install node-red
 - [x] [Balenaetcher](https://www.balena.io/etcher/)
 - [x] [Eagle](https://www.autodesk.com/products/eagle/free-download)
 - [ ] Autenticação GOV
-- [x] [Anydesk}(https://anydesk.com/pt/downloads/linux)
+- [x] [Anydesk](https://anydesk.com/pt/downloads/linux)
 - [ ] TeamViewer
 - [ ] VNC 
 - [ ] Wireshark
