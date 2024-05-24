@@ -13,7 +13,7 @@ This repository was created to contain the necessary setup after new installatio
 sudo apt install -y terminator gparted dconf-editor git ssh sshpass meld picocom net-tools hardinfo cutecom putty vim gimp rar unrar p7zip-full p7zip-rar neofetch curl openssh-server locate filezilla tree librecad
 
 # Gnome tools
-sudo apt install -y gnome-tweaks gnome-browser-connector
+sudo apt install -y gnome-tweaks gnome-browser-connector gnome-weather 
 # Gnome tools deprecated for UBU24
 sudo apt install -y gnome-control-center gnome-session gdm3 chrome-gnome-shell gnome-tweaks gnome-system-monitor gnome-shell-extensions xdg-desktop-portal-gnome gnome-screenshot
 
@@ -100,7 +100,7 @@ chmod +x name.desktop
 
 - [x] [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [x] [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-- [x] [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
+- [x] [Weather_OClock]([https://extensions.gnome.org/extension/750/openweather/](https://extensions.gnome.org/extension/5470/weather-oclock/))
 - [x] [Refresh Wifi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/)
 - [x] [Disconnect Wifi](https://extensions.gnome.org/extension/904/disconnect-wifi/)
 - [x] [Docker](https://extensions.gnome.org/extension/5103/docker/)
