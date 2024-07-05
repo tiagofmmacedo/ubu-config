@@ -13,7 +13,7 @@ This repository was created to contain the necessary setup after new installatio
 sudo apt install -y terminator gparted dconf-editor git ssh sshpass meld picocom net-tools hardinfo cutecom putty vim gimp rar unrar p7zip-full p7zip-rar neofetch curl openssh-server locate filezilla tree librecad
 
 # Gnome tools
-sudo apt install -y gnome-tweaks gnome-browser-connector gnome-weather gdm-settings libglib2.0-dev-bin
+sudo apt install -y gnome-tweaks gnome-browser-connector gnome-weather gdm-settings libglib2.0-dev-bin libfuse2 cmake libevdev-dev libudev-dev libconfig++-dev 
 # Gnome tools deprecated for UBU24
 sudo apt install -y gnome-control-center gnome-session gdm3 chrome-gnome-shell gnome-tweaks gnome-system-monitor gnome-shell-extensions xdg-desktop-portal-gnome gnome-screenshot
 
