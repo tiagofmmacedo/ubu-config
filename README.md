@@ -100,7 +100,7 @@ chmod +x name.desktop
 
 - [x] [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [x] [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-- [x] [Weather_OClock]([https://extensions.gnome.org/extension/750/openweather/](https://extensions.gnome.org/extension/5470/weather-oclock/))
+- [x] [Weather_OClock](https://extensions.gnome.org/extension/5470/weather-oclock/))
 - [x] [Refresh Wifi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/)
 - [x] [Disconnect Wifi](https://extensions.gnome.org/extension/904/disconnect-wifi/)
 - [x] [Docker](https://extensions.gnome.org/extension/5103/docker/)
