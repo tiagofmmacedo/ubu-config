@@ -45,7 +45,8 @@ sudo snap install wps-2019-snap &&\
 sudo snap install onlyoffice-desktopeditors &&\
 sudo snap install mqttx &&\
 sudo snap install rpi-imager &&\
-sudo snap install node-red
+sudo snap install node-red &&\
+sudo snap install dbeaver-ce
 ```
 
 
@@ -100,7 +101,7 @@ chmod +x name.desktop
 
 - [x] [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [x] [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-- [x] [Weather_OClock](https://extensions.gnome.org/extension/5470/weather-oclock/))
+- [x] [Weather_OClock](https://extensions.gnome.org/extension/5470/weather-oclock/)
 - [x] [Refresh Wifi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/)
 - [x] [Disconnect Wifi](https://extensions.gnome.org/extension/904/disconnect-wifi/)
 - [x] [Docker](https://extensions.gnome.org/extension/5103/docker/)
