@@ -221,7 +221,19 @@ function parse_git_dirty {
 	fi
 }
 
-export PS1="\[\e[37m\]mcd\[\e[m\]\[\e[37m\]:\[\e[m\]\[\e[0;34m\]\W\[\e[m\]\[\e[0;34m\]\\$\[\e[m\]\[\e[34m\]\`parse_git_branch\`\[\e[m\] " 
+export PS1="\[\e[37m\]mcd\[\e[m\]\[\e[37m\]:\[\e[m\]\[\e[0;34m\]\W\[\e[m\]\[\e[0;34m\]\\$\[\e[m\]\[\e[34m\]\`parse_git_branch\`\[\e[m\] "
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias update='sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade'
+alias python=python3
+alias py=python3
+alias pyenv='python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt'
+alias pyact='source .venv/bin/activate'
+alias docker-compose='docker compose'
+alias pio='/home/mcd/.platformio/penv/bin/platformio'
 ```
 
 Reload File:
